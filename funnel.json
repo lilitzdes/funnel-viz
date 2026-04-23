@@ -1,0 +1,65 @@
+{
+  "data": [
+    {
+      "id": "concepts",
+      "label": "Данные",
+      "elements": [
+        {
+          "id": "dimension",
+          "label": "Параметр",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        {
+          "id": "metric",
+          "label": "Метрики (шаги воронки)",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 15
+          }
+        }
+      ]
+    }
+  ],
+  "style": [
+    {
+      "id": "styleOptions",
+      "label": "Настройки",
+      "elements": [
+        {
+          "id": "funnelColor",
+          "label": "Цвет воронки",
+          "type": "FILL_COLOR",
+          "defaultValue": {
+            "color": "#4285F4"
+          }
+        },
+        {
+          "id": "showPctFromFirst",
+          "label": "Показывать % от первой метрики",
+          "type": "CHECKBOX",
+          "defaultValue": true
+        },
+        {
+          "id": "showPctFromPrev",
+          "label": "Показывать % от предыдущей метрики",
+          "type": "CHECKBOX",
+          "defaultValue": true
+        },
+        {
+          "id": "fontColor",
+          "label": "Цвет текста",
+          "type": "FILL_COLOR",
+          "defaultValue": {
+            "color": "#212121"
+          }
+        }
+      ]
+    }
+  ],
+  "interactions": []
+}
